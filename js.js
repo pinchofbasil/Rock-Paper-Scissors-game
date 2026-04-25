@@ -6,13 +6,13 @@ let score = JSON.parse(localStorage.getItem('score')) || {
 
 updateScore();
 
-const btnRock = document.querySelector('.btn-rock').addEventListener('click', () => {
+const btnRock = document.querySelector('.rock').addEventListener('click', () => {
     playgame('rock')
 });
-const btnPaper = document.querySelector('.btn-paper').addEventListener('click', () => {
+const btnPaper = document.querySelector('.paper').addEventListener('click', () => {
     playgame('paper')
 });
-const btnScissors = document.querySelector('.btn-scissors').addEventListener('click', () => {
+const btnScissors = document.querySelector('.scissors').addEventListener('click', () => {
     playgame('scissors')
 });
 const btnReset = document.querySelector('.btn-reset').addEventListener('click', () => {

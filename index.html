@@ -3,16 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Rock Paper Scissors game</title>
 </head>
 <body>
-    <p>Rock Paper Scissors game</p>
-    <button class="btn btn-rock">Rock</button>
-    <button class="btn btn-paper">Paper</button>
-    <button class="btn btn-scissors">Scissors</button>
-    <p class="js-result"></p>
-    <p class="js-score"></p>
-    <button class="btn btn-reset">Reset Score</button>
+    <div class="wrapper">
+        <header class="header__section">
+            <h1 class="title">Rock Paper Scissors Game</h1>
+        </header>
+        <main class="main__section container">
+            <div class="move__section">
+                <button class="btn-move rock"><img src="./img/rock.png" alt="Rock"></button>
+                <button class="btn-move paper"><img src="./img/paper.png" alt="Paper"></button>
+                <button class="btn-move scissors"><img src="./img/scissors.png" alt="Scissors"></button>
+            </div>
+            <div class="info-panel__section">
+                <p class="js-result"></p>
+                <p class="js-score"></p>
+            </div>
+            <div class="reset-panel__section">
+                <button class="btn-reset">Reset Score</button>
+            </div>
+        </main>
+        <footer class="footer__section">
+            <span>Created by _pinchofbasil</span>
+        </footer>
+    </div>
+    
 
     <script src="./js.js"></script>
 </body>

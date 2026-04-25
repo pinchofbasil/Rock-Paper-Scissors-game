@@ -1,0 +1,92 @@
+@import url("reset.css");
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+[class*="__section"] {
+    padding-block: 40px;
+    text-align: center;
+
+}
+
+.title {
+    font-size: 2.5rem;
+}
+
+.move__section {
+    display: flex;
+    gap: 30px;
+}
+
+.btn-move {
+    max-width: 150px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 30px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btn-move:hover {
+    background-color: rgba(240, 240, 240, 0.928);
+    transition: background-color 0.7s;
+}
+
+.btn-move:active {
+    border-color: rgb(49, 147, 7, 0.91);
+    background-color: rgba(49, 147, 7, 0.91);
+    color: white;
+    transition: background-color 0.1s;
+    padding: 20px;
+}
+
+.js-result {
+    min-height: 27px;
+}
+
+.btn-reset {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 15px 30px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-reset:hover {
+    background-color: white;
+    color: rgb(25, 25, 25);
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.btn-reset:active {
+    background-color: rgb(251, 11, 11);
+    color: white;
+    transition: background-color 0.1s, color 0.1s;
+}
+
+
+
+
